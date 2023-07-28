@@ -1,4 +1,4 @@
-# itch_detection
+# The 2022 Ideathon & Hackathon of Sensing Solution（itch_detection）
 
 ## Project Overview
 This GitHub repository contains the code and documentation for the development of a system consisting of three components: 
