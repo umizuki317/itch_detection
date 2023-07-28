@@ -1,7 +1,7 @@
 # The 2022 Ideathon & Hackathon of Sensing Solution（itch_detection）
 
 ## Project Overview
-This GitHub repository contains the code and documentation for the development of a system consisting of three components: 
+This GitHub repository contains the code and documentation for the development of a mainly system consisting of four components: 
 
 ### ① spresense_main_vel1.0
 main_vel.io is responsible for setting up communication with the two subcores and driving the vibration component (beep sound) based on the processing results from the subcores. Additionally, it sets up Wi-Fi communication.
@@ -12,6 +12,10 @@ sub_spresense_test.io focuses on analyzing microphone input using FFT and establ
 ### ③ sub2.io
 sub2.io utilizes the accelerometer sensor (kx122) to measure arm movements. Similar to sub_spresense_test.io, it communicates with the host system via packets, employing threshold values for decision making.
 
+### ④ local server
+this includes a Python file and a html file. python file launch a local server and communicate with the spreadsheet.
+
+To complete our project, you must set spread sheet. 
 ## Setup and Usage
 Clone the repository to your local machine.
 
